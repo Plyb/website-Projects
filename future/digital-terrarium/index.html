@@ -1,0 +1,72 @@
+<!<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/master-styles.css">
+    <title></title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">Projects by Koby</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/projects/beyond-the-board">Beyond the Board</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Future Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/future/digital-terrarium">Digital Terrarium</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content-container">
+      <div class="main-content">
+        <h1>Digital Terrarium</h1>
+        <img src="/images/digital-terrarium.png" alt="Digital Terrarium" class="headline-image">
+        <h2>About</h2>
+        <p>Digital Terrarium is my plan to create a sort of "evolution simulator" and thereby teach myself some of the principles of neural networks and AI. My current plan is to build it in Unity, like Beyond the Board, but I would also like to look into alternatives, or even building my own rendering system.</p>
+        <p>The simulation will consist of many small "creatures" that move around a map, interacting with objects in their environment and each other. Each creature will have an energy level, and they can use some of that energy to produce a copy of themselves with slight variations (mutations) in the neural network that will govern its behavior. Over time, this should lead to the most "fit" creatures beating out the less fit ones.</p>
+        <p>Ideally, I would like to set it up so that the simulation is running perpetually on this website, so that at any time, you can log on and see how the creatures are doing. Hence the name "Digital Terrarium".</p>
+        <h2>Goals of the Project</h2>
+        <p>I really enjoy systems that have emergent behavior (hence Beyond the Board having procedurally generated levels and its AI design), and I've been fascinated by neural networks for a while, so my goal with this project is to...</p>
+        <ol>
+          <li>learn how to use neural networks.</li>
+          <li>make a fun toy that people can enjoy playing with.</li>
+        </ol>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p class="footer-text">Creative Project 1</p>
+      <a href="https://github.com/Plyb/website-Projects.git">GitHub Repository</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
